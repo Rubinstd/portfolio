@@ -1,0 +1,19 @@
+{
+    "name": "Daniel Rubinstein",
+    "profilePhoto": "https://cdn2.iconfinder.com/data/icons/avatar-2/512/Fred_man-512.png",
+    "description": "Lorem ipsum...",
+    "contacts": [
+        {
+            "info": "(647) 995-9319",
+            "label": "fa fa-phone-square"
+        },
+        {
+            "info": "rubins.daniel@gmail.com",
+            "label": "fa fa-envelope"
+        },
+        {
+            "info": "/daniel-rubinstein",
+            "label": "fa fa-linkedin"
+        }
+    ]
+}

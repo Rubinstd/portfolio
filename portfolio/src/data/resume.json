@@ -1,0 +1,103 @@
+{
+    "name": "Daniel Rubinstein",
+    "profilePhoto": "https://www.shareicon.net/download/2015/09/18/103157_man_512x512.png",
+    "highlights": [
+        { "info": "Excellent communication and teamwork skills developed as a Software Developer at McMaster University and ArcelorMittal Dofasco" },
+        { "info": "Proficient in various computer / information technology (IT) skills and Database Design as seen in project work including the management of SQL Database servers, development in the .NET framework, all while exhibiting knowledge of Windows software design standards." },
+        { "info": "Problem solver who is able to view assignments from a bigger picture perspective, thinking out of the box and searching for optimal solutions." }
+
+    ],
+    "contactInfo": [
+        {
+            "type": "Email",
+            "info": "rubins.daniel@gmail.com"
+        },
+        {
+            "type": "LinkedIn",
+            "info": "www.linkedin.com/in/daniel-rubinstein"
+        },
+        { 
+            "type": "Cell Number",
+            "info": "(647) 995-9319"
+        },
+        { 
+            "type": "Address",
+            "info": "1 Houseman Crescent, Richmond Hill Ontario"
+        }
+    ],
+    "education": [
+        {
+            "name": "McMaster University | Hamilton, ON",
+            "startYear": "2017",
+            "endYear": "2021",
+            "program": "Bachelor of Applied Sciences, Computer Science (Co-op)",
+            "schoolDescription":[
+                { "info": "Currently in level 3 of a 4-year program." },
+                { "info": "Worked on 2 web design assignments creating web apps using Elm, Python, HTML ." },
+                { "info": "Completed numerous Python, C, C++, Java, Haskell, MIPS Assembly, NASM Assembly,  Elm, and Bash assignments as well as courses in Data Structures and Algorithms, Software Design, and Discrete Mathematics." }
+
+            ]
+        }
+    ],
+    "experience": [
+        {
+            "jobName": "Software Developer",
+            "startYear": "May 2019",
+            "endYear": "August 2019",
+            "company": "ArcelorMittal Dofasco",
+            "location": "Hamilton, ON",
+            "jobDescription":[
+                { "info": "Developed dynamic pricing REST Web APIs using Kotlin in the Spring framework that communicated with SQL / Oracle databases to retrieve and analyze data to produce accurate product cost estimations." },
+                { "info": "Built Jenkins pipelines for continuous integration of numerous projects within the IT Solutions department." },
+                { "info": "Designed and implemented front end web applications in Angular 8 for data visualization (through Microsoft SSRS reports) while working in an Agile team environment." },
+                { "info": "Proposed and developed Python scripts, Microsoft SSIS packages, and JUnit tests for the automation of ETL tasks and to visualize the outcomes of Web API test case results." }
+            ]
+        },
+        {
+            "jobName": "Software Developer",
+            "startYear": "May 2018",
+            "endYear": "August 2018",
+            "company": "McMaster University",
+            "location": "Hamilton, ON",
+            "jobDescription":[
+                { "info": "Developed extensive testing framework for the MacQuest mobile app (Android / iOS)." },
+                { "info": "Using the testing framework that I developed, we were able to identify and fix many prominent issues." },
+                { "info": "Designed and implemented a more user friendly interface for various functions within the app." },
+                { "info": "Proposed, designed, and implemented a new idea for a framework for a GPS based AR navigation and information system to be incorporated in the MacQuest app." }
+            ]
+        }
+    ],
+    "skills":[
+        {
+            "groupName":"Languages",
+            "skills":[
+                { "info": "Kotlin, Objective-C, C#, C++, Java, Python, Javascript / Typescript, LaTeX, T-SQL, PL/SQL, NASM, MIPS, Go, Haskell, Ruby, F#, Oz, Bash, C, C++, CSS, PHP, VisualBasic, Swift, RobotC, R" }
+            ]
+        },
+        {
+            "groupName":"Frameworks",
+            "skills":[
+                { "info": "Angular8, Flask, .NET, Springboot, Flutter, Unity, 2D/3D, Unreal Engine" }
+            ]
+        },
+        {
+            "groupName":"Platforms",
+            "skills":[
+                { "info": "Windows, Linux, MacOS, Android, iOS " }
+            ]
+        },
+        {
+            "groupName":"Other Technologies",
+            "skills":[
+                { "info": "Git, SVN, Jenkins Pipelines, SQL Databases, Oracle Databases, Amazon AWS, Google Cloud Platform, Microsoft SSIS  Microsoft SSRS, Power BI, Microsoft Office, Docker, Vuforia AR, ARCore, ARKit, MatLab, Emacs" }
+            ]
+        }
+        ,
+        {
+            "groupName":"Other Skills",
+            "skills":[
+                { "info": "Basic Video Editing, Basic Photo Editing, Knowledge of Software Design Patterns / Principles, Computer Hardware Management Skills" }
+            ]
+        }
+    ]
+}
