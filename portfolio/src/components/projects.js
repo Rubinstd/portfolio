@@ -8,12 +8,11 @@ class Projects extends Component{
         this.state = { activeTab: 0 };
     }
     toggleCategories(){
-      console.log("toggleCat")
       return(
         <div className="projects-grid">
           {ProjectData.filter( projectGroup => projectGroup.id === this.state.activeTab)
                       .map( (data) => data.projectList.map( (project) => 
-                        <Card key={project.id} shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
+                        <Card key={project.id} shadow={5} style={{ minWidth: '300px', margin: '10px' }}>
                           <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover' }} >{project.name}</CardTitle>
                           <CardText>
                             {project.description}
@@ -35,13 +34,13 @@ class Projects extends Component{
     
     render(){
         return(
-            <div>
+            <div className="resume-card">
               <Tabs activeTab={this.state.activeTab} onChange={(tabId) => this.setState({ activeTab: tabId })} ripple>
-              {ProjectData.map((projectGroup) => {
-                return (
+              {ProjectData.map((projectGroup) => {
+                return (
                   <Tab key={projectGroup.id}>{projectGroup.name}</Tab>
                 )
-              })}
+              })}
               </Tabs>
                 <Grid>
                   <Cell col={12}>

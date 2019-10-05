@@ -12,7 +12,7 @@ class Landing extends Component{
                             className="avatar-img"
                         />
                         <div className="banner-text">
-                            <h1>Monkey With A Computer</h1>
+                            <h1>Monkey With A Computer?</h1>
                             <hr/>
                             <p>
                                 JUGGLING | UNDERWATER BASKET WEAVING | ETC | YEA

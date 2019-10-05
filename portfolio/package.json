@@ -4,12 +4,17 @@
   "private": true,
   "homepage": "http://Rubinstd.github.io/portfolio",
   "dependencies": {
+    "@animated-burgers/burger-arrow": "^1.1.2",
+    "@animated-burgers/burger-rotate": "^1.1.2",
+    "animated-scroll-to": "^2.0.3",
+    "flexbox-react": "^4.4.0",
     "gh-pages": "^2.1.1",
     "react": "^16.10.1",
     "react-dom": "^16.10.1",
     "react-mdl": "^1.11.0",
     "react-router-dom": "^5.1.1",
-    "react-scripts": "3.1.2"
+    "react-scripts": "3.1.2",
+    "scroll-to-element": "^2.0.3"
   },
   "scripts": {
     "start": "react-scripts start",
