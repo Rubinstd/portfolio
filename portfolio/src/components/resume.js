@@ -13,15 +13,10 @@ class Resume extends Component {
           <Grid>
             <Cell col={4}>
               <div style={{ textAlign: 'center' }}>
-                <img
-                  src={ResumeData.profilePhoto}
-                  alt="avatar"
-                  style={{ height: '200px' }}
-                />
               </div>
 
               <h2 style={{ paddingTop: '2em' }}>{ResumeData.name}</h2>
-              <h4 style={{ color: 'grey' }}>Coding Monkey</h4>
+              <h4 style={{ color: 'grey' }}>Software Developer</h4>
               <hr style={{ borderTop: '3px solid #C14953', width: '50%' }} />
               {ResumeData.highlights.map(highlight =>
                 <div key={highlight.info}>

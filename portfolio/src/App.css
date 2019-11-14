@@ -48,7 +48,7 @@
   
   /* Resume Page css */
   .resume-card{
-    background: #E5DCC5 !important;
+    background: #B3C0A4 !important;
     width: 100% !important;
     margin: auto;
   }
@@ -71,7 +71,7 @@
   }
 
   .contact-card{
-    background: #E5DCC5 !important;
+    background: #B3C0A4 !important;
     width: 100% !important;
     margin: auto;
   }
@@ -95,7 +95,7 @@
   }
   
   .contact-grid hr {
-    border-top: 5px dotted #C14953;
+    border-top: 5px dotted #EAEFD3;
     width: 50%;
     margin: auto;
   }
@@ -103,7 +103,7 @@
   .contact-list i {
     font-size: 66px;
     padding-right: 5rem;
-    color: #C14953;
+    color: #EAEFD3;
   }
   
   
@@ -197,7 +197,7 @@
   }
   
   .social-links i {
-    color: #C14953;
+    color: #EAEFD3;
     font-size: 3em;
     padding: 8px;
   }
